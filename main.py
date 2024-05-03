@@ -1,13 +1,14 @@
-import asyncio 
- 
-from aiogram import Bot, Dispatcher, Router, F 
-from aiogram.types import Message, BotCommand, KeyboardButton, ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery 
+import asyncio
+
+from aiogram import Bot, Dispatcher, Router, F
+from aiogram.types import Message, BotCommand,\
+    InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
- 
-bot = Bot(token="7157439516:AAHTbVmmNgfIu4L0iLJSkBjfqORLcvXZ_tY") 
-dp = Dispatcher() 
+
+bot = Bot(token="7157439516:AAHTbVmmNgfIu4L0iLJSkBjfqORLcvXZ_tY")
+dp = Dispatcher()
 router = Router()
 
 class Anketa(StatesGroup):
