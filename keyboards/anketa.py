@@ -1,3 +1,4 @@
+"""Module providing a function printing python version."""
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 kb_apteka_cancel = InlineKeyboardMarkup(inline_keyboard=[
@@ -30,4 +31,4 @@ kb_apteka_by_gender = InlineKeyboardMarkup(inline_keyboard=[
         InlineKeyboardButton(
             text='Женский',
             callback_data='gender_w'),
-    ]])
+            ]])
